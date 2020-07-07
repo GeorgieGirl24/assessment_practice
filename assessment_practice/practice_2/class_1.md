@@ -1,7 +1,8 @@
 class Cookies
 
 ---Attributes---
-NAME_BRAND: (integer)
+
++ NAME_BRAND: (integer)
 + type (string)
 + total_package_amount(integer)
 + brand (string)
