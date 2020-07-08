@@ -13,10 +13,10 @@ class Table
 
 ---Method---
 
-- seat_guests (evaluates `guest_capacity` and `unoccupied` and returns a 'string')
+- can_seat_guests? (evaluates `guest_capacity` and `unoccupied` and returns boolean)
 
-- needs_cleaning (evaluates `unoccupied` and `is_dirty` and preforms an action to change `is_dirty` to `false`.)
+- clean (evaluates `unoccupied` and `is_dirty` and preforms an action to change `is_dirty` to `false`.)
 
 - change_location (evaluates `current_location` and preforms an action to move it)
 
-- needs_repair (evaluates `bad_condition` and takes action to return a boolean response to `false`)
+- repair (evaluates `bad_condition` and takes action to return a boolean response to `false`)

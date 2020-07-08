@@ -11,10 +11,10 @@ TableEight
 
 
 ---Method---
-- seat_guests #=> "Seat Sam (party of 8) at this table."
+- can_seat_guests?: `true`
 
 - needs_cleaning #=> `is_dirty`: `false`
 
-- change_location #=> "back dinning room"
+- change_location: `current_location` = "back dinning room"
 
-- needs_repair #=> `false`
+- repair: `bad_condition` = `false`

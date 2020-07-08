@@ -13,13 +13,14 @@ DinningRoom
 + number_of_broken_fixtures: 6
 + most_recent_clean: 6/23/2020
 + cushion_ripped: true
++ expected_flooring: "hardwood"
 
 ---Method---
 
-- paint_job #=> "beige"
+- change_paint:  `paint_color` = "beige"
 
 - change_flooring #=> "hard wood"
 
-- repair_cushion #=> false
+- repair_cushion: `cushion_ripped` = `false`
 
-- order_bulbs #=> 80
+- calculate_total_bulbs_needed = 80
