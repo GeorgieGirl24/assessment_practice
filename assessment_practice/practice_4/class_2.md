@@ -1,9 +1,8 @@
 class Animals
 
 ---Attributes---
-+ variety (string)
-+ variety_average_height (integer)
-+ current_height (integer)
++ breed_average_height (float)
++ current_height (float)
 + breed (string)
 + is_hungry (boolean)
 
