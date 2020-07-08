@@ -19,7 +19,7 @@ DinningRoom
 
 - change_paint:  `paint_color` = "beige"
 
-- change_flooring #=> "hard wood"
+- change_flooring: `type_of_flooring` = "hard wood"
 
 - repair_cushion: `cushion_ripped` = `false`
 
