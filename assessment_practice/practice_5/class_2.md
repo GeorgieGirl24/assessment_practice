@@ -10,5 +10,5 @@ class Steakhouse
 ---Methods---
 + clean (takes `is_dirty` and sets it to `false`)
 + update_website (takes `website` and changes it)
-+ calculate_hiring_needs (subtracts `current_emmployee_number` from `ideal_employee_number` and returns integer)
-+ change_shifts (updates `managers_on_duty`)
++ calculate_hiring_needs (subtracts `current_emmployee_number` from `ideal_employee_number` and returns value)
++ change_shift (updates `managers_on_duty`)
